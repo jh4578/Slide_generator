@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Comprehensive Overview of FRESCO Study: Efficacy, Safety, and Patient Demographics</title>
+<style>
+
+    body{
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff url('bg.png') no-repeat top center;
+      background-size: cover;
+      color: #002855;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+    }
+
+    .txt-purple{
+      color: #95429D;
+    }
+
+    .txt-bold{
+      font-weight: bold;
+    }
+
+    .thelogo {
+        width: 300px;
+        margin-bottom: 25px;
+    }
+
+    header{
+      position: relative;
+      background:#95429D;
+      padding: 15px 30px;
+      color: #59CBE8;
+      font-weight: bold;
+      font-size: 20px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      width: max-content;
+      border-bottom-right-radius: 30px;
+      overflow: auto;
+    }
+
+    .main {
+        display: flex;
+        padding: 20px 25px 10px 25px;
+        flex: 1;
+        gap: 10px;
+        width: 1440px;
+        margin: 0 auto;
+        overflow: auto;
+        box-sizing: border-box;
+        min-height: auto;
+        max-height: none;
+    }
+    .ai-content {
+        flex: 65%;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+    .sidebar {
+        flex: 35%;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 20px;
+        overflow: auto;
+    }
+
+    .title-section {
+        margin-bottom: 15px;
+        flex-shrink: 0;
+    }
+
+    .main-title {
+        color: #002855;
+        font-size: 36px;
+        font-weight: bold;
+        margin: 0 0 15px 0;
+        line-height: 1.2;
+    }
+
+    .subtitle {
+        color: #95429D;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 0 20px 0;
+        line-height: 1.3;
+    }
+
+    .statistics-text {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 20px;
+        flex-shrink: 0;
+    }
+
+    .stat-text-item {
+        flex: 1;
+    }
+
+    .stat-number {
+        font-size: 48px;
+        font-weight: bold;
+        color: #002855;
+        margin-bottom: 10px;
+        line-height: 1;
+    }
+
+    .stat-description {
+        font-size: 16px;
+        font-weight: 600;
+        color: #002855;
+        line-height: 1.3;
+    }
+
+    .highlight-box {
+        background: #95429D;
+        color: white;
+        padding: 20px 25px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        flex-shrink: 0;
+    }
+
+    .highlight-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        line-height: 1.3;
+    }
+
+    .content-box {
+        background: white;
+        border-radius: 8px;
+        padding: 25px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        flex: 1;
+        overflow-y: auto;
+    }
+
+    .content-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #002855;
+        margin: 0 0 15px 0;
+    }
+
+    .content-text {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .key-points {
+        margin-top: 10px;
+    }
+
+    .point-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+        line-height: 1.4;
+    }
+
+    .point-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .bullet {
+        color: #95429D;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 10px;
+        flex-shrink: 0;
+        margin-top: 2px;
+    }
+
+    .point-text {
+        font-size: 15px;
+        font-weight: 500;
+        flex: 1;
+        line-height: 1.4;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(13, 1fr);
+        gap: 1px;
+        width: 100%;
+        height: 60px;
+        margin-top: auto;
+    }
+    footer .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        word-wrap: break-word;
+        padding: 2px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        color:#ffffff;
+        cursor: pointer;
+        position: relative;
+        height: 60px;
+        }
+        .box.active::before,
+        .box.active::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+        }
+        .box.active::after {
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #59CBE8;
+            z-index: 2;
+        }
+        .box.active::before {
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid #ffffff;
+            z-index: 1;
+        }
+    .homeicon {
+        width: 40px;
+    }
+    .box.home {
+        background: linear-gradient(to bottom, #632071, #500d5e);
+    }
+    .box.home:hover {
+        background: linear-gradient(to bottom, #500d5e, #632071);
+    }
+    .box.purple {
+        background: linear-gradient(to bottom, #6c2472, #95429D);
+    }
+    .box.purple:hover {
+        background: linear-gradient(to bottom, #95429D, #6c2472);
+    }
+    .box.green{
+        background: linear-gradient(to bottom, #81a13e, #a4c859);
+    }
+    .box.green:hover{
+        background: linear-gradient(to bottom, #a4c859, #81a13e);
+    }
+    .box.blue{
+        background: linear-gradient(to bottom, #3da1bb, #59CBE8);
+    }
+    .box.blue:hover{
+        background: linear-gradient(to bottom, #59CBE8, #3da1bb);
+    }
+  
+</style>
+<style>
+
+    body{
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff url('bg.png') no-repeat top center;
+      background-size: cover;
+      color: #002855;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+    }
+
+    .txt-purple{
+      color: #95429D;
+    }
+
+    .txt-bold{
+      font-weight: bold;
+    }
+
+    .thelogo {
+        width: 300px;
+        margin-bottom: 25px;
+    }
+
+    header{
+      position: relative;
+      background:#95429D;
+      padding: 15px 30px;
+      color: #59CBE8;
+      font-weight: bold;
+      font-size: 20px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      width: max-content;
+      border-bottom-right-radius: 30px;
+      overflow: auto;
+    }
+
+    .main {
+        display: flex;
+        padding: 20px 25px 10px 25px;
+        flex: 1;
+        gap: 10px;
+        width: 1440px;
+        margin: 0 auto;
+        overflow: auto;
+        box-sizing: border-box;
+        min-height: auto;
+        max-height: none;
+    }
+    .ai-content {
+        flex: 65%;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+    .sidebar {
+        flex: 35%;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+
+    /* Main Content Layout */
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 20px;
+        overflow: auto;
+    }
+
+    /* Title Section */
+    .title-section {
+        margin-bottom: 15px;
+        flex-shrink: 0;
+    }
+
+    .main-title {
+        color: #002855;
+        font-size: 36px;
+        font-weight: bold;
+        margin: 0 0 15px 0;
+        line-height: 1.2;
+    }
+
+    .subtitle {
+        color: #95429D;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 0 20px 0;
+        line-height: 1.3;
+    }
+
+    /* Statistics Text Section */
+    .statistics-text {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 20px;
+        flex-shrink: 0;
+    }
+
+    .stat-text-item {
+        flex: 1;
+    }
+
+    .stat-number {
+        font-size: 48px;
+        font-weight: bold;
+        color: #002855;
+        margin-bottom: 10px;
+        line-height: 1;
+    }
+
+    .stat-description {
+        font-size: 16px;
+        font-weight: 600;
+        color: #002855;
+        line-height: 1.3;
+    }
+
+    /* Highlight Box */
+    .highlight-box {
+        background: #95429D;
+        color: white;
+        padding: 20px 25px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        flex-shrink: 0;
+    }
+
+    .highlight-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        line-height: 1.3;
+    }
+
+    /* Content Box */
+    .content-box {
+        background: white;
+        border-radius: 8px;
+        padding: 25px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        flex: 1;
+        overflow-y: auto;
+    }
+
+    .content-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #002855;
+        margin: 0 0 15px 0;
+    }
+
+    .content-text {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .key-points {
+        margin-top: 10px;
+    }
+
+    .point-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+        line-height: 1.4;
+    }
+
+    .point-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .bullet {
+        color: #95429D;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 10px;
+        flex-shrink: 0;
+        margin-top: 2px;
+    }
+
+    .point-text {
+        font-size: 15px;
+        font-weight: 500;
+        flex: 1;
+        line-height: 1.4;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(13, 1fr);
+        gap: 1px;
+        width: 100%;
+        height: 60px;
+        margin-top: auto;
+    }
+    footer .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        word-wrap: break-word;
+        padding: 2px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        color:#ffffff;
+        cursor: pointer;
+        position: relative;
+        height: 60px;
+        }
+        .box.active::before,
+        .box.active::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+        }
+        .box.active::after {
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #59CBE8;
+            z-index: 2;
+        }
+        .box.active::before {
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid #ffffff;
+            z-index: 1;
+        }
+    .homeicon {
+        width: 40px;
+    }
+    .box.home {
+        background: linear-gradient(to bottom, #632071, #500d5e);
+    }
+    .box.home:hover {
+        background: linear-gradient(to bottom, #500d5e, #632071);
+    }
+    .box.purple {
+        background: linear-gradient(to bottom, #6c2472, #95429D);
+    }
+    .box.purple:hover {
+        background: linear-gradient(to bottom, #95429D, #6c2472);
+    }
+    .box.green{
+        background: linear-gradient(to bottom, #81a13e, #a4c859);
+    }
+    .box.green:hover{
+        background: linear-gradient(to bottom, #a4c859, #81a13e);
+    }
+    .box.blue{
+        background: linear-gradient(to bottom, #3da1bb, #59CBE8);
+    }
+    .box.blue:hover{
+        background: linear-gradient(to bottom, #59CBE8, #3da1bb);
+    }
+  
+</style>
+<style>
+
+/* Enhanced HTML Merger: force page to be scrollable */
+html, body {
+    height: auto !important;
+    overflow: auto !important;
+}
+
+/* Normalize fixed containers */
+*[style*="overflow: hidden"] { 
+    overflow: auto !important; 
+}
+*[style*="height: 100vh"] { 
+    height: auto !important; 
+}
+
+/* Multi-page layout styles */
+.merged-page-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.merged-page-section {
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.merged-page-section:not(:last-child) {
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 40px;
+}
+
+.merged-page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    padding: 15px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.merged-page-content {
+    position: relative;
+}
+
+/* Ensure main containers are not fixed height */
+.main {
+    height: auto !important;
+    max-height: none !important;
+    min-height: auto !important;
+    overflow: visible !important;
+}
+
+</style>
+</head>
+<body>
+<div class="merged-page-container">
+
+                <div class="merged-page-section" id="page-1">
+                    <div class="merged-page-content">
+                        
+<header>
+    FRESCO Study
+  </header>
+<div class="main">
+<div class="ai-content">
+<div class="content-wrapper">
+<div class="title-section">
+<h1 class="main-title">Demographics and Baseline Characteristics</h1>
+<h2 class="subtitle">Overview of the Patient Population in the FRESCO Study</h2>
+</div>
+<div class="statistics-text">
+<div class="stat-text-item">
+<div class="stat-number">416</div>
+<div class="stat-description">Total Patients Enrolled</div>
+</div>
+<div class="stat-text-item">
+<div class="stat-number">18%</div>
+<div class="stat-description">Patients ≥ 65 years</div>
+</div>
+</div>
+<div class="highlight-box">
+<div class="highlight-title">Comprehensive analysis of patient demographics and key baseline characteristics provides insight into the study's population.</div>
+</div>
+<div class="content-box">
+<div class="content-title">Key Findings</div>
+<div class="content-text">The FRESCO study, a pivotal evaluation of fruquintinib in metastatic colorectal cancer, enrolled 416 patients. The cohort's demographics reveal valuable insights into the treatment's applicability and patient population.</div>
+<div class="key-points">
+<div class="point-item">
+<span class="bullet">•</span>
+<span class="point-text">The study included 416 patients with metastatic colorectal cancer.</span>
+</div>
+<div class="point-item">
+<span class="bullet">•</span>
+<span class="point-text">Of these, 18% were 65 years of age or older, highlighting the relevance of elderly representation.</span>
+</div>
+<div class="point-item">
+<span class="bullet">•</span>
+<span class="point-text">Efficacy and safety profiles of fruquintinib were consistent across age groups, with no significant differences observed in geriatric versus younger patients.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sidebar">
+<div id="p1-sidebar-logo">
+<img class="thelogo" src="https://www.fruzaqlahcp.com/sites/default/files/2024-04/fruzaqla_logo_r_rgb.png"/>
+</div>
+<div id="p1-sidebar-text">
+<h3 class="txt-purple">IMPORTANT SAFETY INFORMATION (continued) </h3>
+<h4>WARNINGS AND PRECAUTIONS (continued)</h4>
+<p>Impaired Wound Healing. In 911 patients with mCRC treated with FRUZAQLA, 1 patient experienced a Grade 2 event of wound dehiscence. Do not administer FRUZAQLA for at least 2 weeks prior to major surgery. Do not administer FRUZAQLA for at least 2 weeks after major surgery and until adequate wound healing. The safety of resumption of FRUZAQLA after resolution of wound healing complications has not been established.</p>
+<p class="txt-bold">Please see additional Important Safety Information throughout, full <span class="txt-purple"><a href="">Important Safety Information</a></span>, and full <span class="txt-purple"><a href="">Prescribing Information</a></span> for FRUZAQLA. </p>
+</div>
+</div>
+</div>
+<footer>
+<div class="box home">
+<img class="homeicon" src="HomeIcon.png"/>
+</div>
+<div class="box purple">UNMET<br/>NEED/MOA</div>
+<div class="box green">FRESCO-2</div>
+<div class="box purple">EFFICACY:<br/>OS</div>
+<div class="box purple">EFFICACY:<br/>PFS</div>
+<div class="box purple">SAFETY</div>
+<div class="box blue">FRESCO</div>
+<div class="box purple">EFFICACY:<br/>OS</div>
+<div class="box purple">EFFICACY:<br/>PFS</div>
+<div class="box purple">SAFETY</div>
+<div class="box purple">QOL/<br/>DOSING</div>
+<div class="box purple">ASSIST/<br/>ISI</div>
+<div class="box purple">ISI/<br/>REFERENCES</div>
+</footer>
+<script type="text/javascript">
+    const boxes = document.querySelectorAll("footer .box");
+
+    boxes.forEach(box => {
+      box.addEventListener("click", () => {
+        boxes.forEach(b => b.classList.remove("active"));
+        box.classList.add("active");
+      });
+    });
+  </script>
+
+                    </div>
+                </div>
+                
+
+                <div class="merged-page-section" id="page-2">
+                    <div class="merged-page-content">
+                        
+<header>
+    FRESCO Study
+  </header>
+<div class="main">
+<div class="ai-content">
+<div class="content-wrapper">
+<!-- Title Section -->
+<div class="title-section">
+<h1 class="main-title">Efficacy Outcomes of Fruquintinib in mCRC</h1>
+<h2 class="subtitle">Analysis of Overall Survival (OS) and Progression-Free Survival (PFS)</h2>
+</div>
+<!-- Statistics Text Section -->
+<div class="statistics-text">
+<div class="stat-text-item">
+<div class="stat-number">9.3 months</div>
+<div class="stat-description">Median Overall Survival (OS)</div>
+</div>
+<div class="stat-text-item">
+<div class="stat-number">3.7 months</div>
+<div class="stat-description">Median Progression-Free Survival (PFS)</div>
+</div>
+</div>
+<!-- Highlight Box -->
+<div class="highlight-box">
+<div class="highlight-title">Fruquintinib Demonstrated Significant Efficacy</div>
+</div>
+<!-- Main Content Box -->
+<div class="content-box">
+<div class="content-title">Key Efficacy Findings</div>
+<div class="content-text">The FRESCO study, a pivotal phase III trial, revealed important efficacy outcomes for fruquintinib in patients with metastatic colorectal cancer (mCRC). The analysis underscored the drug's potential in improving survival metrics over standard treatments.</div>
+<!-- Key Points -->
+<div class="key-points">
+<div class="point-item">
+<span class="bullet">•</span>
+<span class="point-text">Median OS was 9.3 months, reflecting a significant improvement over placebo.</span>
+</div>
+<div class="point-item">
+<span class="bullet">•</span>
+<span class="point-text">Median PFS stood at 3.7 months, with clearer management of disease progression.</span>
+</div>
+<div class="point-item">
+<span class="bullet">•</span>
+<span class="point-text">Overall survival benefits were consistent across various patient demographics.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sidebar">
+<div id="p2-sidebar-logo">
+<img class="thelogo" src="https://www.fruzaqlahcp.com/sites/default/files/2024-04/fruzaqla_logo_r_rgb.png"/>
+</div>
+<div id="p2-sidebar-text">
+<h3 class="txt-purple">IMPORTANT SAFETY INFORMATION (continued) </h3>
+<h4>WARNINGS AND PRECAUTIONS (continued)</h4>
+<p>Impaired Wound Healing. In 911 patients with mCRC treated with FRUZAQLA, 1 patient experienced a Grade 2 event of wound dehiscence. Do not administer FRUZAQLA for at least 2 weeks prior to major surgery. Do not administer FRUZAQLA for at least 2 weeks after major surgery and until adequate wound healing. The safety of resumption of FRUZAQLA after resolution of wound healing complications has not been established.</p>
+<p class="txt-bold">Please see additional Important Safety Information throughout, full <span class="txt-purple"><a href="">Important Safety Information</a></span>, and full <span class="txt-purple"><a href="">Prescribing Information</a></span> for FRUZAQLA. </p>
+</div>
+</div>
+</div><!--main-->
+<footer>
+<div class="box home">
+<img class="homeicon" src="HomeIcon.png"/>
+</div>
+<div class="box purple">UNMET<br/>NEED/MOA</div>
+<div class="box green">FRESCO-2</div>
+<div class="box purple">EFFICACY:<br/>OS</div>
+<div class="box purple">EFFICACY:<br/>PFS</div>
+<div class="box purple">SAFETY</div>
+<div class="box blue">FRESCO</div>
+<div class="box purple">EFFICACY:<br/>OS</div>
+<div class="box purple">EFFICACY:<br/>PFS</div>
+<div class="box purple">SAFETY</div>
+<div class="box purple">QOL/<br/>DOSING</div>
+<div class="box purple">ASSIST/<br/>ISI</div>
+<div class="box purple">ISI/<br/>REFERENCES</div>
+</footer>
+<script type="text/javascript">
+    const boxes = document.querySelectorAll("footer .box");
+
+    boxes.forEach(box => {
+      box.addEventListener("click", () => {
+        boxes.forEach(b => b.classList.remove("active"));
+        box.classList.add("active");
+      });
+    });
+  </script>
+
+                    </div>
+                </div>
+                
+
+                <div class="merged-page-section" id="page-3">
+                    <div class="merged-page-content">
+                        
+<header>
+    FRESCO Study
+  </header>
+<div class="main">
+<div class="ai-content">
+<div class="content-wrapper">
+<!-- Title Section -->
+<div class="title-section">
+<h1 class="main-title">Safety Profile of Fruquintinib</h1>
+<h2 class="subtitle">Analysis of Adverse Events in Metastatic Colorectal Cancer</h2>
+</div>
+<!-- Statistics Text Section -->
+<div class="statistics-text">
+<div class="stat-text-item">
+<div class="stat-number">92.1%</div>
+<div class="stat-description">Overall AE occurrence rate</div>
+</div>
+<div class="stat-text-item">
+<div class="stat-number">27.6%</div>
+<div class="stat-description">Grade 3 or 4 AE incidence</div>
+</div>
+</div>
+<!-- Highlight Box -->
+<div class="highlight-box">
+<div class="highlight-title">Key Adverse Events Observed</div>
+</div>
+<!-- Main Content Box -->
+<div class="content-box">
+<div class="content-title">Detailed Findings on Safety</div>
+<div class="content-text">In the FRESCO study, the safety profile of Fruquintinib was thoroughly assessed. The adverse events (AEs) associated with the treatment arose in 92.1% of patients. Significant AEs included hypertension, hand-foot skin reaction (HFSR), proteinuria, and hypothyroidism.</div>
+<!-- Key Points -->
+<div class="key-points">
+<div class="point-item">
+<span class="bullet">•</span>
+<span class="point-text">Hypotension affected 48.7% of patients, with 27.6% experiencing grade 3 or 4 events.</span>
+</div>
+<div class="point-item">
+<span class="bullet">•</span>
+<span class="point-text">HFSR was prevalent in 43.4% of participants, consistent with other trials.</span>
+</div>
+<div class="point-item">
+<span class="bullet">•</span>
+<span class="point-text">Proteinuria and hypothyroidism were observed in 27.6% and 22.4% of patients respectively.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sidebar">
+<div id="p3-sidebar-logo">
+<img class="thelogo" src="https://www.fruzaqlahcp.com/sites/default/files/2024-04/fruzaqla_logo_r_rgb.png"/>
+</div>
+<div id="p3-sidebar-text">
+<h3 class="txt-purple">IMPORTANT SAFETY INFORMATION (continued) </h3>
+<h4>WARNINGS AND PRECAUTIONS (continued)</h4>
+<p>Impaired Wound Healing. In 911 patients with mCRC treated with FRUZAQLA, 1 patient experienced a Grade 2 event of wound dehiscence. Do not administer FRUZAQLA for at least 2 weeks prior to major surgery. Do not administer FRUZAQLA for at least 2 weeks after major surgery and until adequate wound healing. The safety of resumption of FRUZAQLA after resolution of wound healing complications has not been established.</p>
+<p class="txt-bold">Please see additional Important Safety Information throughout, full <span class="txt-purple"><a href="">Important Safety Information</a></span>, and full <span class="txt-purple"><a href="">Prescribing Information</a></span> for FRUZAQLA. </p>
+</div>
+</div>
+</div><!--main-->
+<footer>
+<div class="box home">
+<img class="homeicon" src="HomeIcon.png"/>
+</div>
+<div class="box purple">UNMET<br/>NEED/MOA</div>
+<div class="box green">FRESCO-2</div>
+<div class="box purple">EFFICACY:<br/>OS</div>
+<div class="box purple">EFFICACY:<br/>PFS</div>
+<div class="box purple">SAFETY</div>
+<div class="box blue">FRESCO</div>
+<div class="box purple">EFFICACY:<br/>OS</div>
+<div class="box purple">EFFICACY:<br/>PFS</div>
+<div class="box purple">SAFETY</div>
+<div class="box purple">QOL/<br/>DOSING</div>
+<div class="box purple">ASSIST/<br/>ISI</div>
+<div class="box purple">ISI/<br/>REFERENCES</div>
+</footer>
+<script type="text/javascript">
+    const boxes = document.querySelectorAll("footer .box");
+
+    boxes.forEach(box => {
+      box.addEventListener("click", () => {
+        boxes.forEach(b => b.classList.remove("active"));
+        box.classList.add("active");
+      });
+    });
+  </script>
+
+                    </div>
+                </div>
+                
+</div>
+</body>
+</html>

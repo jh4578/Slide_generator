@@ -1,0 +1,35 @@
+Generated image metadata
+Original prompt: Create a professional medical data visualization chart for a pharmaceutical presentation about fruquintinib in metastatic colorectal cancer.
+
+ORIGINAL IMAGE ANALYSIS:
+- Chart Type: kaplan_meier
+- Clinical Data: survival
+- Key Findings: ```json
+{
+    "has_relevant_features": true,
+    "chart_type": "kaplan_meier",
+    "clinical_data_ty
+
+GENERATION REQUIREMENTS:
+- Recreate a similar kaplan_meier chart using the same data pattern
+- Focus on survival outcomes for fruquintinib
+- Use the visual style and layout from efficacy_os.png as reference. 
+- Use professional medical chart styling
+- Include clear axis labels, legends, and statistical annotations
+- Use pharmaceutical branding colors (blues, purples, medical greens)
+- Ensure readability for medical presentations
+- Include confidence intervals and p-values where appropriate
+
+STYLE SPECIFICATIONS:
+- Clean, professional medical chart appearance
+- White/light background suitable for presentations  
+- High contrast text and data points
+- Professional typography
+- Clear data visualization best practices
+
+Query Context: analyze the efficacy OS
+
+Generate a high-quality clinical data visualization that medical professionals would use in presentations.
+Revised prompt: Create a professional medical data visualization chart for a pharmaceutical presentation about fruquintinib in metastatic colorectal cancer. The chart design should be based on the Kaplan Meier survival curve, focusing on fruquintinib. Inspired by the visual style of efficacy_os.png, maintain a clean and professional look. Important elements such as axis labels, legends, and statistical annotations should be clear and readable, incorporating common pharmaceutical branding colors. Stress on the inclusion of relevant statistical elements like confidence intervals and p-values. After thorough analysis of the efficacy OS, ensure high contrast between text and data points, with a light background suitable for presentations and professional typography to enhance overall readability and clarity.
+Image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-3cNoX8afrek3H34znfIsR2pJ/user-inCZLY9QF7a7P8wGoPVOzKqY/img-jTboX6iUTjfryfmByfZGedv3.png?st=2025-08-21T21%3A42%3A38Z&se=2025-08-21T23%3A42%3A38Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8c7ba6b3-5a55-4cb2-a31e-3fe3f598c469&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-21T22%3A42%3A38Z&ske=2025-08-22T22%3A42%3A38Z&sks=b&skv=2024-08-04&sig=sl/gnhVUFWNbLmZX3RpKMzzWipGkP5d63Exb87858jY%3D
+Timestamp: 20250821_184238

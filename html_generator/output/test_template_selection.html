@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efficacy of Fruquintinib in Metastatic Colorectal Cancer</title>
+
+  <style type="text/css">
+    body{
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff url('bg.png') no-repeat top center;
+      background-size: cover;
+      color: #002855;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .txt-purple{
+      color: #95429D;
+    }
+
+    .txt-bold{
+      font-weight: bold;
+    }
+
+    .thelogo {
+        width: 300px;
+        margin-bottom: 25px;
+    }
+
+    header{
+      position: relative;
+      background:#95429D;
+      padding: 15px 30px;
+      color: #59CBE8;
+      font-weight: bold;
+      font-size: 20px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      width: max-content;
+      border-bottom-right-radius: 30px;
+      overflow: hidden;
+    }
+
+    .main {
+        display: flex;
+        padding: 20px 25px 10px 25px;
+        flex: 1;
+        gap: 10px;
+        width: 1440px;
+        margin: 0 auto;
+        overflow: hidden;
+        box-sizing: border-box;
+        min-height: calc(100vh - 140px);
+        max-height: calc(100vh - 140px);
+    }
+    .ai-content {
+        flex: 65%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .sidebar {
+        flex: 35%;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+
+    /* Medical Presentation Layout Styles */
+    .study-header {
+        background: linear-gradient(135deg, #95429D 0%, #6B2C91 100%);
+        color: white;
+        padding: 15px 25px;
+        margin: -20px -25px 20px -25px;
+        border-radius: 0 0 15px 0;
+        position: relative;
+    }
+
+    .study-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .content-wrapper {
+        display: flex;
+        height: 100%;
+        gap: 20px;
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .left-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        overflow: hidden;
+    }
+
+    .main-title-section {
+        margin-bottom: 10px;
+        flex-shrink: 0;
+    }
+
+    .main-title {
+        color: #002855;
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        line-height: 1.2;
+    }
+
+    .subtitle {
+        color: #95429D;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0 0 0px 0;
+        line-height: 1.3;
+    }
+
+    .chart-section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+        border: 1px solid #f0f0f0;
+        min-height: 0;
+        overflow: hidden;
+    }
+
+    .chart-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f8f9fa;
+        border-radius: 8px;
+        padding: 0px;
+        margin-bottom: 10px;
+        min-height: 400px;
+        max-height: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .main-chart, .chart-placeholder {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 5px;
+        margin-top: -10px;
+    }
+
+    .chart-description {
+        text-align: left;
+        color: #333;
+        font-size: 14px;
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+
+    .chart-description p {
+        margin: 0;
+        font-weight: 500;
+    }
+
+    .key-points {
+        margin-top: 8px;
+        flex-shrink: 0;
+    }
+
+    .points-container {
+        background: white;
+        color: #002855;
+        padding: 12px 18px;
+        border-radius: 8px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .point-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 6px;
+        line-height: 1.2;
+    }
+
+    .point-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .bullet {
+        color: #95429D;
+        font-size: 14px;
+        font-weight: bold;
+        margin-right: 8px;
+        flex-shrink: 0;
+        margin-top: 1px;
+    }
+
+    .point-text {
+        font-size: 14px;
+        font-weight: 500;
+        flex: 1;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: repeat(13, 1fr);
+        gap: 1px;
+        width: 100%;
+        height: 60px;
+        margin-top: auto;
+    }
+    footer .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        word-wrap: break-word;
+        padding: 2px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        color:#ffffff;
+        cursor: pointer;
+        position: relative;
+        height: 60px;
+        }
+        .box.active::before,
+        .box.active::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+        }
+        .box.active::after {
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #59CBE8;
+            z-index: 2;
+        }
+        .box.active::before {
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid #ffffff;
+            z-index: 1;
+        }
+    .homeicon {
+        width: 40px;
+    }
+    .box.home {
+        background: linear-gradient(to bottom, #632071, #500d5e);
+    }
+    .box.home:hover {
+        background: linear-gradient(to bottom, #500d5e, #632071);
+    }
+    .box.purple {
+        background: linear-gradient(to bottom, #6c2472, #95429D);
+    }
+    .box.purple:hover {
+        background: linear-gradient(to bottom, #95429D, #6c2472);
+    }
+    .box.green{
+        background: linear-gradient(to bottom, #81a13e, #a4c859);
+    }
+    .box.green:hover{
+        background: linear-gradient(to bottom, #a4c859, #81a13e);
+    }
+    .box.blue{
+        background: linear-gradient(to bottom, #3da1bb, #59CBE8);
+    }
+    .box.blue:hover{
+        background: linear-gradient(to bottom, #59CBE8, #3da1bb);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    FRESCO Study
+  </header>
+
+  <div class="main">
+    <div class="ai-content">
+
+      
+      <!-- Main Content Area -->
+      <div class="content-wrapper">
+        <!-- Left Content Section -->
+        <div class="left-content">
+          <!-- Main Title and Subtitle -->
+          <div class="main-title-section">
+            <h2 class="main-title">Efficacy of Fruquintinib in mCRC</h2>
+            <h3 class="subtitle">Overall Survival Analysis in FRESCO Study</h3>
+          </div>
+          
+          <!-- Chart/Image Section -->
+          <div class="chart-section">
+            <div class="chart-container">
+                              <img src="efficacy_os.png" alt="Kaplan-Meier Curve for Overall Survival" class="main-chart" />
+              <!-- Placeholder for different chart types -->
+              <img src="efficacy_os.png" alt="Efficacy Chart" class="chart-placeholder" style="display: none;" />
+            </div>
+            
+           
+          </div>
+          
+          <!-- Key Points -->
+          <div class="key-points">
+            <div class="points-container">
+              <div class="point-item">
+                <span class="bullet">•</span>
+                <span class="point-text">Median OS for fruquintinib was 9.3 months compared to 6.6 months for placebo (HR 0.65; 95% CI: 0.55, 0.77).</span>
+              </div>
+              <div class="point-item">
+                <span class="bullet">•</span>
+                <span class="point-text">Significant improvement in overall survival (p < 0.001), indicating efficacy in the mCRC population.</span>
+              </div>
+              <div class="point-item">
+                <span class="bullet">•</span>
+                <span class="point-text">Fruquintinib reduced the risk of death by 35% compared to placebo in the FRESCO study.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div id="sidebar-logo">
+        <img class="thelogo" src="https://www.fruzaqlahcp.com/sites/default/files/2024-04/fruzaqla_logo_r_rgb.png">
+      </div>
+      <div id="sidebar-text">
+        <h3 class="txt-purple">IMPORTANT SAFETY INFORMATION (continued) </h3>
+        <h4>WARNINGS AND PRECAUTIONS (continued)</h4>
+        <p>Impaired Wound Healing. In 911 patients with mCRC treated with FRUZAQLA, 1 patient experienced a Grade 2 event of wound dehiscence. Do not administer FRUZAQLA for at least 2 weeks prior to major surgery. Do not administer FRUZAQLA for at least 2 weeks after major surgery and until adequate wound healing. The safety of resumption of FRUZAQLA after resolution of wound healing complications has not been established.</p>
+        <p class="txt-bold">Please see additional Important Safety Information throughout, full <span class="txt-purple"><a href="">Important Safety Information</a></span>, and full <span class="txt-purple"><a href="">Prescribing Information</a></span> for FRUZAQLA. </p>
+      </div>
+    </div>
+  </div><!--main-->
+
+  <footer>
+    <div class="box home">
+      <img class="homeicon" src="HomeIcon.png">
+    </div>
+    <div class="box purple">UNMET<br>NEED/MOA</div>
+    <div class="box green">FRESCO-2</div>
+    <div class="box purple">EFFICACY:<br>OS</div>
+    <div class="box purple">EFFICACY:<br>PFS</div>
+    <div class="box purple">SAFETY</div>
+    <div class="box blue">FRESCO</div>
+    <div class="box purple">EFFICACY:<br>OS</div>
+    <div class="box purple">EFFICACY:<br>PFS</div>
+    <div class="box purple">SAFETY</div>
+    <div class="box purple">QOL/<br>DOSING</div>
+    <div class="box purple">ASSIST/<br>ISI</div>
+    <div class="box purple">ISI/<br>REFERENCES</div>
+  </footer>
+
+  <script type="text/javascript">
+    const boxes = document.querySelectorAll("footer .box");
+
+    boxes.forEach(box => {
+      box.addEventListener("click", () => {
+        boxes.forEach(b => b.classList.remove("active"));
+        box.classList.add("active");
+      });
+    });
+  </script>
+
+ 
+</body>
+</html>

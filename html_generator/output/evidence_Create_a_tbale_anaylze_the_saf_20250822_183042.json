@@ -1,0 +1,250 @@
+{
+  "query_info": {
+    "original_query": "Create a tbale anaylze the safety",
+    "expanded_queries": [
+      "Create a tbale anaylze the safety",
+      "fruquintinib safety data analysis",
+      "FRESCO study adverse events table",
+      "fruquintinib treatment side effects"
+    ],
+    "search_timestamp": "2025-08-22T18:30:42.407825",
+    "total_results": 20
+  },
+  "evidence_summary": {
+    "total_count": 20,
+    "type_distribution": {
+      "clinical_trial": 6,
+      "efficacy_data": 5,
+      "indication": 5,
+      "safety_data": 4
+    },
+    "source_distribution": {
+      "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf": 10,
+      "fruzaqlaprescribinginformation.pdf": 2,
+      "realworlddata_fruquintinibintreatingmetastaticcolorectalcancer.pdf": 8
+    },
+    "avg_similarity_score": 0.7247663766145707
+  },
+  "evidence_results": [
+    {
+      "id": "evidence_096",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 2,
+      "content": "Conclusion: The outcome of this real-life study was consistent with that of the randomised controlled trial. There were no new safety concerns. Future studies of fruquintinib should be conducted to identify patients who tend to obtain more benefits from fruquintinib alone or in combination with other agents.",
+      "label": "Safety Information",
+      "category": "clinical_trial",
+      "similarity_score": 0.7538468837738037,
+      "search_rank": 1
+    },
+    {
+      "id": "evidence_094",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 2,
+      "content": "Methods: Patients with mCRC treated with fruquintinib at our hospital were retrospectively reviewed. Patient demographics, treatment, adverse events and survival data were collected. OS and progression-free survival (PFS) were estimated using the Kaplan-Meier method.",
+      "label": "Adverse Events Information",
+      "category": "efficacy_data",
+      "similarity_score": 0.7474436163902283,
+      "search_rank": 2
+    },
+    {
+      "id": "evidence_108",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 3,
+      "content": "We  aimed  to  represent  the  clinical  profiles  of  the mCRC patients  treated  with  fruquintinib  and  to  demonstrate  the  efficacy  and  toxicity  of  fruquintinib  in  a  realworld  practice.  All  statistical  analyses  were  performed using  SPSS  20.0  (IBM  Corp.,  USA).  Survival  was  estimated  using  the  Kaplan-Meier  method.  A  Cox  proportional hazards model was adopted to evaluate the association  between  the  baseline  characteristics  and  OS. Tumour response was evaluated every two cycles according to the Response Evaluation Criteria in Solid Tumours (RECIST)  V1.1.  OS  and  PFS  were  estimated  using  the Kaplan-Meier  method  and  compared  by  the  Log  rank test.  Adverse  Events  were  graded  according  to  National Cancer Institute  Common Terminology Criteria for Adverse Events (NCI CTCAE) V.5.0. The safety profile, including adverse events of special interest (AESIs) and treatment-emergent adverse events (TEAEs), was analysed.",
+      "label": "Adverse Events Information",
+      "category": "efficacy_data",
+      "similarity_score": 0.7367691993713379,
+      "search_rank": 3
+    },
+    {
+      "id": "evidence_102",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 3,
+      "content": "trials  were  stringent,  such  as  age,  weight,  starting  dose, and  prior  antitumour  treatment,  and  might  not  represent real-life patients and outcomes. Our study aimed to determine  the  efficacy  and  safety  profile  of  fruquintinib  in clinical practice and to determine the factors that influence the efficacy of fruquintinib in this group of patients.",
+      "label": "Dosage and Administration",
+      "category": "clinical_trial",
+      "similarity_score": 0.7346102595329285,
+      "search_rank": 4
+    },
+    {
+      "id": "evidence_104",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 3,
+      "content": "Fruquintinib  is  a  potent,  highly  selective  and  orally active  inhibitor  of  VEGFR1,  2,  and  3  tyrosine  kinases. 4 In the randomised phase III clinical trial FRESCO, among 416 Chinese mCRC patients who progressed after at least 2  prior  chemotherapy  regimens,  oral  fruquintinib  compared with BSC has demonstrated a statistically significant increase  in  OS  (9.3  vs  6.6  months;  HR  0.65;  95%  CI, 0.51-0.83; P < 0.001). The median PFS was also significantly increased by fruquintinib treatment compared with placebo  (3.7  vs  1.8  months;  HR  0.26;  95%  CI,  0.21  to 0.34; P <  0.001).  Most  frequent  grade  3  to  4  adverse events were hypertension (21.2%), hand-foot skin reaction (10.8%), and proteinuria (3.2%). 5",
+      "label": "Adverse Events Information",
+      "category": "clinical_trial",
+      "similarity_score": 0.7330317497253418,
+      "search_rank": 5
+    },
+    {
+      "id": "evidence_095",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 2,
+      "content": "Results: In  total,  76  patients  were  evaluated  from  December  2018  to  January  2020.  The median  (range)  age  was  59.5  (34-86)  years,  ECOG  PS  0-1/2  was  86.8%/13.2%,  and  38 (50%)/30 (39.5%) patients had experienced more than two prior therapies for mCRC. The median  treatment  duration  was  3.6  cycles.  Treatment-related  adverse  events  (TRAEs) resulted in dose reduction were 17.1% of the patients without any treatment discontinuation. The most common grade 3 or 4 TRAEs were hypertension (9.2%), hand-foot skin reaction (7.9%),  thrombocytopenia  (3.9%),  anaemia  (2.6%),  increased  ALT  (1.3%),  oral  mucositis (1.3%), proteinuria (1.3%) and neutropenia (1.3%). The median PFS was 5.1 months (95% CI  3.8-6.4  months),  and  the  median  OS  was  12.0  months  (95%  CI  8.0-16.1  months).  In patients with hypertension or hypothyroidism, a survival extension approximate to 6 months was  observed,  but  the  difference  is  not  yet  statistically  significant.  CEA  decreased  after fruquintinib treatment could be considered as a potential predictor for better OS.",
+      "label": "Dosage and Administration",
+      "category": "indication",
+      "similarity_score": 0.731772780418396,
+      "search_rank": 6
+    },
+    {
+      "id": "evidence_264",
+      "type": "text",
+      "source_document": "fruzaqlaprescribinginformation.pdf",
+      "page_number": 11,
+      "content": "Table 5 summarizes the adverse reactions in FRESCO.",
+      "label": "Adverse Events Information",
+      "category": "safety_data",
+      "similarity_score": 0.7298102378845215,
+      "search_rank": 7
+    },
+    {
+      "id": "evidence_013",
+      "type": "text",
+      "source_document": "realworlddata_fruquintinibintreatingmetastaticcolorectalcancer.pdf",
+      "page_number": 2,
+      "content": "Fruquintinib, also called HMPL-013, was first discovered by Hutchison Whampoa Pharmaceuticals Co. Ltd., Shanghai, China, and it is an oral vascular endothelial growth factor receptor (VEGFR) inhibitor. In clinical trials, fruquintinib has demonstrated a survival benefit in metastatic colorectal cancer (mCRC) patients. The purpose of this study was to retrospectively evaluate the efficacy and toxicity of fruquintinib in real-world patients. We collected data from patients with mCRC treated with oral fruquintinib from 2018 to 2020 in six different institutions. Patients with mCRC initially received 5 mg of oral fruquintinib daily for 3 weeks. Progression-free survival (PFS) was evaluated using the Kaplan-Meier method. The efficacy and safety of fruquintinib were also assessed. Seventy-five patients were involved in our study, and 29.3% of patients achieved stable disease (SD). Median PFS was 5.4 months (95% CI: 4.841-5.959). The treatment-emergent adverse events (TEAEs) with fruquintinib were acceptable with grade 3 TEAEs of 6%. The grade 3 TEAEs were hand-foot skin reaction (HFSR), fatigue, and stomatitis. The ECOG performance status was associated with PFS. In this real-world study, the clinical activity of fruquintinib was consistent with what has been reported in previous clinical trials. The level of safety was acceptable, and the side effects were manageable.",
+      "label": "Adverse Events Information",
+      "category": "safety_data",
+      "similarity_score": 0.729412317276001,
+      "search_rank": 8
+    },
+    {
+      "id": "evidence_038",
+      "type": "text",
+      "source_document": "realworlddata_fruquintinibintreatingmetastaticcolorectalcancer.pdf",
+      "page_number": 5,
+      "content": "To  our  knowledge,  this  is  the  first retrospective study to analyze the safety and efficacy of fruquintinib",
+      "label": "Efficacy Data",
+      "category": "efficacy_data",
+      "similarity_score": 0.7284156680107117,
+      "search_rank": 9
+    },
+    {
+      "id": "evidence_107",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 3,
+      "content": "Eligible patients for this analysis were those who had histologically confirmed mCRC; who were not suitable for chemotherapy or refused chemotherapy; progressed on all the feasible systemic treatments, including oxaliplatin, irinotecan,  fluoropyrimidine,  bevacizumab  and  cetuximab when  applicable;  and  received  at  least  one  cycle  of  fruquintinib.  The  recorded  data  included  demographics, disease characteristics, prior  systemic  therapy,  laboratory values,  efficacy  and  adverse  events.  Informed  consent was  obtained  in  this  trial  and  all  patient  data  was  confidential. This study was performed in accordance with the Declaration of Helsinki and the international standards of good  clinical  practice.  This  study  has  been  approved  by ethics committee of National Cancer Center/Cancer Hospital,  Chinese  Academy  of  Medical  Sciences  and Peking  Union  Medical  College  (Approval  number:  20/ 411-2607).",
+      "label": "Adverse Events Information",
+      "category": "indication",
+      "similarity_score": 0.7281604409217834,
+      "search_rank": 10
+    },
+    {
+      "id": "evidence_250",
+      "type": "text",
+      "source_document": "fruzaqlaprescribinginformation.pdf",
+      "page_number": 8,
+      "content": "Table 3 summarizes the adverse reactions in FRESCO-2.",
+      "label": "Adverse Events Information",
+      "category": "safety_data",
+      "similarity_score": 0.7275775074958801,
+      "search_rank": 11
+    },
+    {
+      "id": "evidence_136",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 8,
+      "content": "In conclusion, the efficacy and safety profile of fruquintinib in the real-world practice were comparable to those found in FRESCO trial. Future studies of fruquintinib should be conducted to identify patients who tend to obtain more benefits from fruquintinib alone or in combination with other agents.",
+      "label": "Efficacy Data",
+      "category": "efficacy_data",
+      "similarity_score": 0.7270117402076721,
+      "search_rank": 12
+    },
+    {
+      "id": "evidence_131",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 7,
+      "content": "Fruquintinib-induced AEs occurred in 92.1% of patients. The most frequently occurred AEs were hypertension, HFSR, proteinuria and hypothyroidism and the rates were consistent with those in the FRESCO trial (98.6%). 5 In this study, the most common grade 3 or 4 toxicities were HFSR, hypertension, thrombocytopenia and anaemia. This profile was generally similar to the grade 3 or 4 toxicity profile found in the FRESCO trial. 5",
+      "label": "Clinical Information: Fruquintinib-induced AEs occurred in 92...",
+      "category": "clinical_trial",
+      "similarity_score": 0.7251481413841248,
+      "search_rank": 13
+    },
+    {
+      "id": "evidence_111",
+      "type": "text",
+      "source_document": "cmar313275therealworldpracticeoffruquintinibforchinesepatients.pdf",
+      "page_number": 4,
+      "content": "Overall,  70  patients  (92.1%)  had  at  least  one  fruquintinibrelated  TEAE  (Table  2).  The  most  frequent  fruquintinibinduced TEAEs were hypertension (48.7%), HFSR (43.4%), proteinuria (27.6%) and hypothyroidism (22.4%). Grade 3 or 4 fruquintinib-induced TEAEs were observed in 27.6%  of  patients,  such  as  HFSR  (9.2%),  hypertension (9.2%),  thrombocytopenia  (3.9%)  and  anaemia  (2.6%). Overall, no treatment-induced deaths were reported.",
+      "label": "Clinical Information: Overall,  70  patients  (92...",
+      "category": "indication",
+      "similarity_score": 0.7146281003952026,
+      "search_rank": 14
+    },
+    {
+      "id": "evidence_014",
+      "type": "text",
+      "source_document": "realworlddata_fruquintinibintreatingmetastaticcolorectalcancer.pdf",
+      "page_number": 2,
+      "content": "Key words: Metastatic colorectal cancer (mCRC); Fruquintinib; Efficacy; Safety",
+      "label": "Efficacy Data",
+      "category": "efficacy_data",
+      "similarity_score": 0.7122278213500977,
+      "search_rank": 15
+    },
+    {
+      "id": "evidence_026",
+      "type": "text",
+      "source_document": "realworlddata_fruquintinibintreatingmetastaticcolorectalcancer.pdf",
+      "page_number": 3,
+      "content": "We enrolled a total of 105 mCRC patients from January 2019 to November 2020 in our province. Thirty patients were excluded because case reports forms (CRFs) were not collected. We evaluated 75 mCRC patients for effectiveness and safety of fruquintinib treatment.",
+      "label": "Safety Information",
+      "category": "indication",
+      "similarity_score": 0.7115980386734009,
+      "search_rank": 16
+    },
+    {
+      "id": "evidence_046",
+      "type": "text",
+      "source_document": "realworlddata_fruquintinibintreatingmetastaticcolorectalcancer.pdf",
+      "page_number": 7,
+      "content": "TEAEs  associated  with  fruquintinib  treatment  were demonstrated  in  the  phase  Ib  trial.  The  most  common grade  3-4  TEAEs  (incidence  >5%)  observed  in  8%  of patients were hypertension, HFSR, fatigue, and diarrhea. In  the  phase  II  trial,  the  grade  3-4  TEAEs  (incidence >5%)  observed  in  61.7%  of  the  fruquintinib  treatment group were hypertension and HFSR. Dose reduction or treatment interruption for TEAEs occurred in 61.7% of patients treated with fruquintinib, and HFSR and hypertension  were  the  most  common TEAEs in the fruquintinib  treatment  group.  In  the  phase  III  trial,  the  safety of  fruquintinib  treatment  in  cancer  patients  was  further studied.  The  most  common TEAEs  were  hypertension, HFSR,  proteinuria,  and  dysphonia.  Grade  3-4  TEAEs were observed in 46% of patients who received fruquintinib  treatment.  The  most  common  grade  3-4  TEAEs (incidence >5%) were hypertension and HFSR.",
+      "label": "Dosage and Administration",
+      "category": "clinical_trial",
+      "similarity_score": 0.707466185092926,
+      "search_rank": 17
+    },
+    {
+      "id": "evidence_023",
+      "type": "text",
+      "source_document": "realworlddata_fruquintinibintreatingmetastaticcolorectalcancer.pdf",
+      "page_number": 3,
+      "content": "The safety in our study was assessed by defining particularly unexpected, clinically significant adverse drug reactions (ADRs). Toxicity was graded by the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events Version 4.03. Treatment-related adverse events  were  reported  as  explicitly  stated  in  the  file through the physicians or in the laboratory data gained during fruquintinib treatment.",
+      "label": "Adverse Events Information",
+      "category": "safety_data",
+      "similarity_score": 0.7068546414375305,
+      "search_rank": 18
+    },
+    {
+      "id": "evidence_035",
+      "type": "text",
+      "source_document": "realworlddata_fruquintinibintreatingmetastaticcolorectalcancer.pdf",
+      "page_number": 5,
+      "content": "The assessments of the disease response rate to therapy included progressive disease in 60% patients, stable disease  in  29.3%  patients,  and  death  in  10.7%  patients (Table  2). All  patients  were  evaluated  for  toxicity,  and the  treatment-emergent  adverse  events  (TEAEs)  that occurred with fruquintinib were recorded.",
+      "label": "Adverse Events Information",
+      "category": "indication",
+      "similarity_score": 0.7050034999847412,
+      "search_rank": 19
+    },
+    {
+      "id": "evidence_077",
+      "type": "text",
+      "source_document": "realworlddata_fruquintinibintreatingmetastaticcolorectalcancer.pdf",
+      "page_number": 8,
+      "content": "Xu RH, Li J, Bai Y, Xu J, Liu T, Shen L, Wang L, Pan H, Cao J, Zhang D, Fan S, Hua Y, Su W. 2017. Safety and efficacy of fruquintinib in patients with previously treated metastatic colorectal cancer: A phase Ib study and a randomized  double-blind  phase  II  study.  J  Hematol  Oncol. 10(1):22.",
+      "label": "Efficacy Data",
+      "category": "clinical_trial",
+      "similarity_score": 0.7045387029647827,
+      "search_rank": 20
+    }
+  ]
+}

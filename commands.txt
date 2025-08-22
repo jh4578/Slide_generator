@@ -1,0 +1,5 @@
+Image:
+python3 html_generator/main.py --query "analyzes the overall survival of Kaplan-Meier"
+
+multi page:
+python3 html_generator/main.py --query "Create a comprehensive 3-page presentation covering FRESCO overall survival results(need an image), safety profile, and patient demographics"
